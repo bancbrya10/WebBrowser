@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newTab"
+        android:icon="@drawable/ic_new_tab"
+        android:title="@string/button_new"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/ic_back"
+        android:title="@string/button_back"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/forward"
+        android:icon="@drawable/ic_forward"
+        android:title="@string/button_forward"
+        app:showAsAction="ifRoom" />
+</menu>
